@@ -202,6 +202,7 @@ font-size: 1.75rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+    padding-bottom: 30px;
 }
 
 .box {
@@ -223,9 +224,14 @@ font-size: 1.75rem;
 
 .box-content a {
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 0.90rem;
     color: #007185;
 }
+
+.box-content a:hover {
+    color: rgb(249, 113, 64);    
+}
+
 
 .box-img {
     height: 75% ;
@@ -264,4 +270,49 @@ font-size: 1.75rem;
 
 #box8 {
     background-image: url("Resources\\box8_image.jpg");
+}
+
+/* Footer */
+
+.footer-pan1 {
+    height: 40px;
+    width: 100%;
+    background-color: #37475a;
+}
+
+.footer-pan1 a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-pan2 {
+    min-height: 250px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer-pan2-block a {
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    margin-top: 0.7rem;
+    font-size: 0.91rem;
+}
+
+.footer-pan2-block a:hover {
+    text-decoration: underline;
+}
+.footer-pan2-block p {
+    font-size: 1rem;
+    font-weight: 700;
 }
