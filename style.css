@@ -18,7 +18,6 @@
 
 .border-box {
     border: 1px solid transparent;
-
 }
 
 .border-box:hover {
@@ -65,7 +64,7 @@
 /* searchbar */
 
 .nav-searchbar {
-    width: 620px;
+    width: 720px;
     height: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -73,6 +72,11 @@
     border: none;
     border-radius: 4px;
     background-color: antiquewhite;
+}
+
+.nav-searchbar:hover {
+    border: 3px solid orange;
+    border-radius: 4px;
 }
 
 .search-select {
@@ -86,12 +90,19 @@
     border-bottom-left-radius: 4px;
 }
 
+.search-select:focus {
+    outline: none;
+}
+
 .searchbar {
     width: 100%;
     height: 100%;
     border: none;
     font-size: 0.95rem;
-    color: #f3f3f3;
+}
+
+.searchbar:focus {
+    outline: none;
 }
 
 .search-icon {
@@ -108,7 +119,70 @@
 }
 
 /* accounts section */
-.nac-account {
-    height: 50px;
+.nav-accounts {
+    padding: 4px;
 }
 
+.nav-first {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+/* nav cart */
+.nav-cart {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.nav-cart i {
+font-size: 1.75rem;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.panel-all {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.panel-ops {
+    width: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-ops p{
+    display: inline;
+    padding: 1%;
+}
+
+.panel-ops p:hover{
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.panel-edeals {
+    font-size: .92rem;
+    font-weight: 700;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
