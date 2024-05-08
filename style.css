@@ -95,7 +95,7 @@
 }
 
 .searchbar {
-    width: 100%;
+    width: 85%;
     height: 100%;
     border: none;
     font-size: 0.95rem;
@@ -315,4 +315,45 @@ font-size: 1.75rem;
 .footer-pan2-block p {
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* panel 3 */
+.footer-pan3 {
+    height: 70px;
+    border-top: 1px solid #494c4c;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon-icon {
+    height: 50px;
+    width: 100px;
+    background-image: url("Resources\\amazon_logo.png");
+    background-size: cover;
+}
+
+/* panel 4 */
+.footer-pan4 {
+    max-height: 50px;
+    background-color: #131a22;
+    color: white;  
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1.5rem;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.pages a {
+    margin-right: 1.25rem;
+    text-decoration: none;
+    color: white;  
+}
+
+.pages a:hover {
+    text-decoration: underline;
 }
